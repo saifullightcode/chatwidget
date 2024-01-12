@@ -1,0 +1,41 @@
+* {box-sizing: border-box;}
+.widget-box-1{
+    position: fixed;
+    bottom: 23px;
+    right: 28px;  
+}
+.open-button {
+  background-color: #333;
+  border-radius:50%;
+  padding: 18px 20px;
+  border: none;
+  cursor: pointer;
+}
+.open-button img{
+    width: 45px;
+    height: 45px;
+}
+.pop-up-box{
+    width: 200px;
+    height: 300px;
+    /* background: #c26a6a; */
+    position: absolute;
+    transition: 0.2s ease all;
+    top: -310px;
+    left: -100px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 3px #d2d2d2;
+    padding: 10px;
+}
+.message-icons{
+    margin: 80px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.pop-up-box h2{
+    margin: 10px;
+}
+.message-icons img{
+    width: 60px;
+}
